@@ -4,10 +4,9 @@
 
 ## Compilación
 
-Compilar con `xelatex` o haciendo uso del `Makefile` (se presume una instalación completa y actualizada de LaTeX).
+Compilar haciendo uso del `Makefile` (se presume una instalación completa y actualizada de LaTeX).
 
 ```sh
-xelatex cv.tex
 make
 ```
 
