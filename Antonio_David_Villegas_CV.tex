@@ -1,0 +1,53 @@
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+
+\documentclass[11pt, a4paper]{awesome-cv}
+
+\usepackage[spanish]{babel}
+
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+\fontdir[fonts/]
+\colorlet{awesome}{awesome-skyblue}
+\setbool{acvSectionColorHighlight}{true}
+\renewcommand{\acvHeaderSocialSep}{\quad\textbf{\cdotp}\quad}
+
+\definecolor{awesome-skyblue-dark}{HTML}{086d9f}
+\hypersetup{%
+	colorlinks=true,
+	urlcolor=awesome-skyblue-dark,
+	pdftitle={Overleaf Example},
+}
+
+\photo{./advy.jpg}
+\name{Antonio David}{Villegas Yeguas}
+\position{Graduado en Ingeniería Informática por la UGR}
+% \mobile{NOMOBILEPHONE}
+\email{advy99@gmail.com}
+% \homepage{}
+\github{advy99}
+\linkedin{advy}
+\gitlab{advy99}
+% \extrainfo{extra informations}
+%\quote{}
+
+\begin{document}
+
+\makecvheader[R]
+\makecvfooter%
+  {}
+  {Compila este currículum: \url{https://github.com/advy99/curriculum-vitae}}
+  {}
+
+\input{src/education.tex}
+\input{src/skills.tex}
+\input{src/experience.tex}
+
+\end{document}
